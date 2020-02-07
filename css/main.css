@@ -1,0 +1,36 @@
+.game {
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.over {
+    width: 500px;
+    height: 500px;
+    background-color: rebeccapurple;
+    text-align: center;
+    vertical-align: middle;
+    display: none;
+    position: fixed;
+}
+
+.picture {
+    margin: 5px;
+    display: inline-block;
+}
+
+.picture img {
+    width: 400px;
+}
+
+.option {
+    width: 400px;
+    height: 60px;
+    background-color: chartreuse;
+    border-radius: 10px;
+    margin: 5px;
+    display: inline-block;
+}
